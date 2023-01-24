@@ -1,6 +1,6 @@
 import React from 'react'
 import { LeftSide, RightSide } from './style'
-import { NavLink } from "react-router-dom"
+import { Link, NavLink } from "react-router-dom"
 import { FiSearch, FiShoppingCart } from "react-icons/fi";
 
 const Header = () => {
@@ -25,7 +25,7 @@ const Header = () => {
           <span><FiSearch /></span>
           <span><FiShoppingCart /><sup>1</sup></span>
           <button>Buy Now</button>
-          <button>Add</button>
+          <button><Link to="/add">Add</Link></button>
         </RightSide>
       </div>
     </header>

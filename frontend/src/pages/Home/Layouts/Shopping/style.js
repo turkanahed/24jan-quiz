@@ -8,6 +8,10 @@ justify-content: center;
 align-items: center;
 .img-wrapper{
    width: 100%;
+   height: 50vh;
+   img{
+    width: 100%;
+   }
 }
 .content{
     position: absolute;

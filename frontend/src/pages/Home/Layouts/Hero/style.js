@@ -2,18 +2,17 @@ import styled from "styled-components"
 
 export const HeroContainer = styled.div`
 background-color: #F1F6F7;
-/* height: 70vh; */
     .col-3{
         img{
             height: 634px;
-            left: 400px;
+            left: 200px;
             position: absolute;
             top: 140px;
         }
     }
     .col-6{
         position: absolute;
-        right: 40px;
+        right: 0px;
         top: 300px;
         h4{
             font-size: 30px;

@@ -2,20 +2,18 @@ import styled from "styled-components"
 
 export const CardContainer= styled.div`
     .MyCard{
-        /* border: 1px solid red; */
-        width: 280px;
+        border-radius: 5px;
+        width: 250px;
         height: 380px;
         display: inline-block;
         margin-right: 50px;
-        /* height: 280px; */
+        text-align: center;
     .card-img{
-        width: 250px;
-        height: 250px;
+        width: 100%;
+        height: 270px;
         object-fit: cover;
         text-align: center;
-        margin-left: 17px;
         padding-bottom: 10px;
-        margin-top: 5px;
         img{
             width: 100%;
             height: 100%;
@@ -39,5 +37,14 @@ export const CardContainer= styled.div`
             margin: 0;
         }
     }
+    button{
+        background-color: rgb(165, 7, 7);
+        color: white;
+        font-size: 15px;
+        border: none;
+        border-radius: 2rem;
+        padding: 10px 40px;
+        letter-spacing: 1px;
     }
+}
 `

@@ -44,5 +44,8 @@ export const RightSide = styled.div`
         color: black;
         font-weight: 500;
         letter-spacing: 1px;
+        a{
+            color: black;
+        }
     }
 `
